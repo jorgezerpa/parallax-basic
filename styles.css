@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+
+						/*global*/
+html, body{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+						/*header and nav*/
+header{
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	z-index: 10;
+}
+
+
+.logo{
+	float: left;
+	font-size: 30px;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	line-height: 250%;
+}
+
+nav{
+	position: relative;
+	width: 82.5%;
+	height: 100%;
+	float: left;
+}
+
+header ul{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0,-50%); 
+}
+
+header li{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+
+						/*main*/
+main{
+	width: 100%;
+	height: 100%;
+}
+
+.image{
+	width: 100%;
+	height: 200%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.text{
+	width: 100%;
+	height: 30%;
+	background-color: black;
+	background: linear-gradient(70deg, black, rgba(50, 50, 50, .8));
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	font-size: 72px;
+}
+
+h2{
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	font-size: 33px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+
+				/*section 1*/
+
+.one{
+	background-image: url(images/forrest-cavale-qfmd9bu7IgA-unsplash.jpg);
+}
+
+
+.one h1{
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+}
+
+.one h2{
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+}
+
+.one h3{
+
+}
+
+
+.texto1, .animation1{
+	position: absolute;
+	top: 50%;
+}
+
+.texto1{
+	color: white;
+	width: 50% ;
+	left: 20%;
+	background-color: rgba(40,40,40,0.6);
+}
+
+
+
+
+.t1{
+	position: relative;
+}
+
+.t1 h2{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+
+.logos-t1{
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	overflow: hidden;
+}
+
+.logo-t1{
+	color: white;
+	width: 100px;
+	height: 100%;
+	border: 1px solid white;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+	align-content: center;
+}
+
+
+
+
+
+
+					/*section 2*/
+.two{
+	background-image: url(images/ken-cheung-KonWFWUaAuk-unsplash.jpg);
+}
+
+
+.two h2{
+	top: 5%;
+	left: 10%;
+}
+
+
+.clients-container{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.clients{
+	width: 80%;
+	height: 30%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.clients div{
+	float: left;
+	margin-left: 2%;
+	margin-top: 10%;
+}
+
+.client-img{
+	width: 25%;
+	height: 70%;
+	overflow: hidden;
+}
+
+.text_client{
+	color: white;
+	width: 70%;
+	height: 80%;
+}
+	
+
+
+						/*section 3*/
+.three{
+	background-image: url(images/luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+}
+
+
+.three h2{
+	top: 5%;
+	left: 10%;
+}
+
+.three p{
+	position: absolute;
+	top: 7%;
+	left: 15%;
+}
+
+
+						/*slider*/
+.slider-container{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, 0);
+	width: 50%;
+	height: 25%;
+}
+
+
+.tns-outer{
+	width: 100%;
+	position: absolute;
+}
+
+.tns-item{
+	width: 100%;
+	height: 350px;
+}
+
+								/*slider-images*/
+#tns1-item0{
+	background-image: url("images/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+
+}
+#tns1-item1{
+	background-image: url("images/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+
+}
+#tns1-item2{
+	background-image: url("images/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+
+}
+
+
+.slider-button-left, .slider-button-right{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,.5);
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 30;
+}
+
+.slider-button-left{
+	left: 5%;
+}
+
+.slider-button-right{
+	right: 5%;
+}
+
+
+
+
+					/*section 4*/
+.four{
+	background-image: url(images/luca-micheli-r9RW20TrQ0Y-unsplash.jpg);
+	height: 150%;
+}
+
+.four h2, .four h3{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.four h3{
+	top: 59%;
+	left: 53%;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+
+
+
